@@ -8,10 +8,11 @@ Demo projects for Gemini 2 Flash.
 
 2. Rename the `.env_template` file to `.env`, and paste the API key into it.
 
-3. Create a Conda environment:
+3. Create and activate a Conda environment:
 
     ```bash
     conda create --name gemini python=3.11
+    conda activate gemini
     ```
 
 4.	Install the required dependencies:
